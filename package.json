@@ -1,8 +1,8 @@
 {
-  "name": "test-cloud-analyser",
+  "name": "cloud-analyser",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,6 @@
   "dependencies": {
     "browser-launcher3": "^0.4.4",
     "express": "^4.16.0",
-    "unifile": "^1.2.0"
+    "unifile": "^2.0.5"
   }
 }
