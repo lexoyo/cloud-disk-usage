@@ -1,6 +1,6 @@
 {
   "name": "cloud-analyser",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "main": "lib/index.js",
   "bin": {
@@ -14,6 +14,7 @@
   "dependencies": {
     "browser-launcher3": "^0.4.4",
     "express": "^4.16.0",
-    "unifile": "^2.0.5"
+    "unifile": "^2.0.5",
+    "unifile-webdav": "^1.1.1"
   }
 }
