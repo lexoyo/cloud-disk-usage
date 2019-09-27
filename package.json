@@ -1,19 +1,24 @@
 {
-  "name": "cloud-analyser",
-  "version": "1.0.6",
-  "description": "",
+  "name": "cloud-disk-usage",
+  "version": "1.0.7",
+  "description": "Summarize cloud storage usage of each FILE, recursively for directories from local file system, Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud.",
   "main": "lib/index.js",
   "bin": {
-    "cloud-analyser": "lib/index.js"
+    "cdu": "lib/index.js",
+    "cloud-disk-usage": "lib/index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=8.0"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {},
+  "repository": "github:lexoyo/cloud-disk-usage",
+  "author": "lexoyo",
+  "license": "GPL-3.0",
   "dependencies": {
     "browser-launcher3": "^0.4.4",
+    "cli": "^1.0.1",
     "express": "^4.16.0",
+    "human-format": "^0.10.1",
     "unifile": "^2.0.5",
     "unifile-webdav": "^1.1.1"
   }
