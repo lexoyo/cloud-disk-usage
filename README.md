@@ -1,8 +1,8 @@
-Disk space analyzer for cloud services disk space usage. Think [`du`](http://www.linuxcommand.org/lc3_man_pages/du1.html) command for online storage.
+Command line utility which displays the size of folder (recursively) and files of your cloud services (e.g. Dropbox and more). This is inspired by the [`du` (disk usage) command](http://www.linuxcommand.org/lc3_man_pages/du1.html).
 
-Summarize cloud storage usage of each FILE, recursively for directories from local file system, Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud. 
+Summarize cloud storage usage of each FILE, recursively for directories from local file system, **Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud**. 
 
-Command line tool which scans your online storage and shows you, where the space is being wasted, giving you an idea of where to start cleaning.
+This is an efficient way to explore your online storage to know where the space is being wasted, giving you an idea of where to start cleaning.
 
 ## Synopsis
 

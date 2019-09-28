@@ -1,6 +1,6 @@
 {
   "name": "cloud-disk-usage",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Summarize cloud storage usage of each FILE, recursively for directories from local file system, Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud.",
   "main": "lib/index.js",
   "bin": {
