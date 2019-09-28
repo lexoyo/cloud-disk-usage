@@ -1,7 +1,7 @@
 {
   "name": "cloud-disk-usage",
-  "version": "1.0.10",
-  "description": "Summarize cloud storage usage of each FILE, recursively for directories from local file system, Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud.",
+  "version": "1.0.11",
+  "description": "Command line utility which displays the size of folders (recursively) and files in your cloud storage (e.g. Dropbox and more).",
   "main": "lib/index.js",
   "bin": {
     "cdu": "lib/index.js",

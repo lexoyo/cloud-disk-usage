@@ -1,6 +1,6 @@
-Command line utility which displays the size of folder (recursively) and files of your cloud services (e.g. Dropbox and more). This is inspired by the [`du` (disk usage) command](http://www.linuxcommand.org/lc3_man_pages/du1.html).
+Command line utility which displays the size of folders (recursively) and files in your cloud storage (e.g. Dropbox and more). Inspired by the [`du` (disk usage) command](http://www.linuxcommand.org/lc3_man_pages/du1.html).
 
-Summarize cloud storage usage of each FILE, recursively for directories from local file system, **Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud**. 
+Supports **Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud** with oauth when available.
 
 This is an efficient way to explore your online storage to know where the space is being wasted, giving you an idea of where to start cleaning.
 
