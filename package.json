@@ -1,6 +1,6 @@
 {
   "name": "cloud-disk-usage",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Summarize cloud storage usage of each FILE, recursively for directories from local file system, Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud.",
   "main": "lib/index.js",
   "bin": {
@@ -23,8 +23,22 @@
     "unifile-webdav": "^1.1.1"
   },
   "keywords": [
-    "du", "linux", "cli",
-    "optimize", "disk space", "hdd", "space", "disk",
-    "cloud", "Dropbox", "fs", "FTP", "SFTP", "Github","NextCloud", "Owncloud", "webdav"
+    "du",
+    "linux",
+    "cli",
+    "optimize",
+    "disk space",
+    "hdd",
+    "space",
+    "disk",
+    "cloud",
+    "Dropbox",
+    "fs",
+    "FTP",
+    "SFTP",
+    "Github",
+    "NextCloud",
+    "Owncloud",
+    "webdav"
   ]
 }
