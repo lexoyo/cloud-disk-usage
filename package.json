@@ -1,6 +1,6 @@
 {
   "name": "cloud-disk-usage",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Command line utility which displays the size of folders (recursively) and files in your cloud storage (e.g. Dropbox and more).",
   "main": "lib/index.js",
   "bin": {
