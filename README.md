@@ -4,18 +4,22 @@ Supports **Dropbox, Github, FTP, SFTP, Webdav, NextCloud, OwnCloud** with oauth 
 
 This is an efficient way to explore your online storage to know where the space is being wasted, giving you an idea of where to start cleaning.
 
+Roadmap
+
+* [x] recursively compute a folder size from all supported services
+* [x] oauth to connect to github and dropbox
+* [x] remember connection details to connect again
+* [x] human readable format option
+* [x] option to list files along with folders
+* [ ] sort option
+
 ## Synopsis
 
 `cdu SERVICE FILE [OPTION]...`
 
-Supported options
+Possible values of the `service` option (case **insensitive**):
 
-* `-a`, `--all`: write counts for all files, not just directories
-* `-h`, `--human-readable`: print sizes in human readable format (e.g., 1K 234M 2G)
-
-Supported services
-
-| Service | Value of the `service` option |
+| description | Service |
 | ------- | ------- |
 | Dropbox | Dropbox |
 | local file system | fs |
@@ -23,6 +27,11 @@ Supported services
 | SFTP | SFTP |
 | Github | Github |
 | NextCloud/Owncloud (with webdav) | webdav |
+
+Available options
+
+* `-a`, `--all`: write counts for all files, not just directories
+* `-h`, `--human-readable`: print sizes in human readable format (e.g., 1K 234M 2G)
 
 ## Examples
 
