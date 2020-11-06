@@ -17,10 +17,10 @@
   "dependencies": {
     "browser-launcher3": "^0.4.4",
     "cli": "^1.0.1",
-    "express": "^4.16.0",
-    "human-format": "^0.10.1",
-    "unifile": "^2.0.7",
-    "unifile-webdav": "^1.1.1"
+    "express": "^4.17.1",
+    "human-format": "^0.11.0",
+    "unifile": "^2.0.14",
+    "unifile-webdav": "^1.1.4"
   },
   "keywords": [
     "du",
